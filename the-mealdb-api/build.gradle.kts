@@ -11,7 +11,7 @@ java {
 
 dependencies {
     implementation(libs.retrofit2)
-    implementation(libs.kotlinx.serialization.json)
     implementation(libs.converter.kotlinx.serialization)
     api(libs.okhttp)
+    api(libs.kotlinx.serialization.json)
 }
